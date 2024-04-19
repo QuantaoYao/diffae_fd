@@ -90,16 +90,5 @@ class FFRL_Datasets(Dataset):
         return {'real1': real1, 'real2': real2, 'morph': morph, 'morph_path': morph_path}
 
 
-if __name__ == '__main__':
-    sssset = FFRL_Datasets(root='./datasets/facelab_london/morph_webmorph', resize=256, mode='test')
-    looooader = DataLoader(sssset, batch_size=4, shuffle=False, num_workers=0)
-    for idx, batch in enumerate(looooader):
-        real1, real2, morph, morph_path = batch['real1'], batch['real2'], batch['morph'], batch['morph_path']
-        for i in range(4):
-            if not os.path.exists(os.path.join(SAVE_PATH, '')):
-                os.mkdir(os.path.join(SAVE_PATH, 'morph_webmorph'))
-            save_demorph(real1[i], morph[i], real2[i],
-                         path=os.path.join(SAVE_PATH, 'morph_webmorph'),
-                         filename_path=os.path.split(morph_path[i])[1])
 
 
