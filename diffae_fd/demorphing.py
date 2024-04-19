@@ -15,7 +15,7 @@ from model.separate_model import separate_model
 import numpy as np
 
 SAVE_PATH = '../evals/morph_stylegan/morph_stylegan'
-BATCH_SIZE = 2
+BATCH_SIZE = 16
 
 def tensor2im(var):
     var = var.cpu().detach().permute(1, 2, 0).numpy()
