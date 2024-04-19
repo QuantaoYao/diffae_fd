@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="cslg@10.126.128.157:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_284" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="cslg@10.126.128.157:22 password (10)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="cslg@10.126.128.157:22 password (11)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="cslg@10.126.128.157:22 password (12)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/cslg/QuantaoYao/diffae_FRLLmorph" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="cslg@10.126.128.157:22 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_114" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="cslg@10.126.128.157:22 password (3)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/cslg/QuantaoYao" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="cslg@10.126.128.157:22 password (4)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/cslg/QuantaoYao" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="cslg@10.126.128.157:22 password (5)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/cslg/QuantaoYao" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="cslg@10.126.128.157:22 password (6)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/cslg/QuantaoYao/diffae_facedemorphing" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="cslg@10.126.128.157:22 password (7)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/cslg/QuantaoYao/diffae_facedemorphing" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="cslg@10.126.128.157:22 password (8)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="cslg@10.126.128.157:22 password (9)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/cslg/QuantaoYao/diffae_facedemorphing" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@i-1.gpushare.com:35447 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/hy-tmp" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@i-1.gpushare.com:6530 password">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@i-2.gpushare.com:22566 password">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="yqt_servers">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

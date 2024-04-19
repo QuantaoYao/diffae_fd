@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ca4dd6ea-4bcf-4df2-b3ea-3d1d320ddb46" name="yqt_servers">
+        <fileTransfer rootFolder="/home/cslg/QuantaoYao" accessType="SFTP" host="10.126.128.157" port="22" sshConfigId="8458cc21-98b4-417b-934d-169b6e2c81e1" sshConfig="cslg@10.126.128.157:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
