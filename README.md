@@ -59,7 +59,7 @@ The face de-morphing process mainly involves the following steps:
 1. loading the facial images in the test datasets
 2. loading the pre-trained weights of DIFFAE
 3. loading the pre-trained weights of the dual-branch separation network
-4. train the constructed dual-branch separation network
+4. By inputting the reference facial image and the morphed facial image into the network, the accomplice's facial image was successfully restored.
 ```
 python demorphing.py
 ```
