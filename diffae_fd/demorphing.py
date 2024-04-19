@@ -14,7 +14,7 @@ from templates import *
 from model.separate_model import separate_model
 import numpy as np
 
-SAVE_PATH = '../evals/dAD/test11111'
+SAVE_PATH = '../evals/morph_stylegan/morph_stylegan'
 BATCH_SIZE = 2
 
 def tensor2im(var):
