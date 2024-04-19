@@ -78,11 +78,11 @@ for idx, batch in enumerate(test_loader):
     cond_morph_real = model.encode(morph.to(device))
     cond_real2_separate = separate_model(cond_real1_real, cond_morph_real)
     xT_morph_real = model.encode_stochastic(morph.to(device), cond_morph_real, T=10)
-    pred_3 = model.render(noise=xT_morph_real, cond=cond_real2_separate, T=20)
+    pred = model.render(noise=xT_morph_real, cond=cond_real2_separate, T=20)
 
     for i in range(BATCH_SIZE):
         if not os.path.exists(os.path.join(SAVE_PATH, 'xT_morph_Noise_separate')):
             os.mkdir(os.path.join(SAVE_PATH, 'xT_morph_Noise_separate'))
-        save_demorph(real1[i], morph[i], real2[i], pred_3[i], epoch=idx, step=i + idx * 2,
+        save_demorph(real1[i], morph[i], real2[i], pred[i], epoch=idx, step=i + idx * 2,
                      path=os.path.join(SAVE_PATH, 'xT_morph_Noise_separate'), filename=os.path.split(morph_path[i])[1])
 
