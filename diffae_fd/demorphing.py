@@ -1,8 +1,5 @@
 import sys
 import os
-import time
-
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import matplotlib.pyplot as plt
 from MIP_Datasets import MIP_Datasets
 from FD_Datasets import FD_Datasets
