@@ -12,7 +12,6 @@ from tensorboardX import SummaryWriter
 EPOCH = 100
 BATCH_SIZE = 16
 
-
 # Read the data of the training set and validation set in their own way
 train_set = ""
 dev_set = ""
@@ -22,7 +21,6 @@ dev_loader = DataLoader(dev_set, batch_size=BATCH_SIZE, shuffle=True)
 
 print(
     f'total train:{len(train_loader.dataset)}\ttotal dev:{len(dev_loader.dataset)}\t')
-# print(f'total test:{len(test_set.dataset)}')
 
 # loading the pre-trained diffusino autoencoders' param
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
