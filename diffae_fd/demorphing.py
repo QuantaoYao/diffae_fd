@@ -1,9 +1,6 @@
 import sys
 import os
 import matplotlib.pyplot as plt
-from MIP_Datasets import MIP_Datasets
-from FD_Datasets import FD_Datasets
-from FFRL_Datasets import FFRL_Datasets
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
@@ -65,8 +62,8 @@ separate_model.eval()
 separate_model.to(device)
 
 # loading the facial images in the test datasets
-test_set = FFRL_Datasets(root='../datasets/facelab_london/morph_stylegan', resize=256, mode='test')
-test_loader = DataLoader(test_set, batch_size=BATCH_SIZE, shuffle=False, num_workers=0)
+test_set = ""
+test_loader = ""
 
 # inference
 for idx, batch in enumerate(test_loader):
