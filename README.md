@@ -43,15 +43,6 @@ checkpoints/
     - last.ckpt 
 ```
 
-# Training
-During the training phase, the dual-branch identity separation network was solely trained, adhering to the following steps:
-1. loading the facial images in the train and dev datasets
-2. loading the pre-trained weights of DIFFAE
-3. use pre-trained diffusion autoencoder to encode input images into semantic latent space
-4. train the constructed dual-branch separation network
-```
-python train_separate.py
-```
 The trained separation network model is saved in the diffae_fd/pretrain_model directory
 
 # De-morphing
