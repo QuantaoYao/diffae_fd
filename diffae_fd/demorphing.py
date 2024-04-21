@@ -3,6 +3,7 @@ import os
 import matplotlib.pyplot as plt
 import torch
 import torch.nn as nn
+from PIL import Image
 from torch.utils.data import DataLoader
 from templates import *
 from model.separate_model import separate_model
@@ -55,7 +56,7 @@ model.ema_model.to(device)
 # loading the trained separation network's param
 separate_model = separate_model()
 separate_model_state = torch.load(
-    'pretrain_model/FFRL_15/morph_stylegan_without_MLP/8_best.pkl',
+    '',
     map_location='cpu')
 separate_model.load_state_dict(separate_model_state['state_dict'], strict=False)
 separate_model.eval()
